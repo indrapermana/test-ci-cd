@@ -8,6 +8,8 @@ require 'recipe/rsync.php';
 set('application', 'My App');
 set('ssh_multiplexing', true);
 
+set('git_tty', true); 
+
 set('rsync_src', function () {
     return __DIR__;
 });
