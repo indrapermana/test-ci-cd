@@ -14,6 +14,8 @@ set('rsync_src', function () {
     return __DIR__;
 });
 
+set('bin/php', 'php');
+set('bin/composer', 'composer');
 
 add('rsync', [
     'exclude' => [
